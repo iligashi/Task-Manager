@@ -36,7 +36,7 @@ A full-stack collaborative task management application with MongoDB, built follo
 
 Create a `.env.local` file with the following variables:
 
-\`\`\`env
+```env
 # MongoDB
 MONGODB_URI=your_mongodb_connection_string
 
@@ -46,24 +46,24 @@ JWT_REFRESH_SECRET=your_refresh_token_secret
 
 # Vercel Blob (automatically configured in Vercel deployment)
 BLOB_READ_WRITE_TOKEN=your_blob_token
-\`\`\`
+```
 
 ### Installation
 
 1. Install dependencies:
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 2. Initialize the database:
-\`\`\`bash
+```bash
 npm run db:init
-\`\`\`
+```
 
 3. Start the development server:
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 4. Open [http://localhost:3000](http://localhost:3000)
 
@@ -169,14 +169,14 @@ npm run dev
 ### Manual Deployment
 
 1. Build the application:
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 
 2. Start production server:
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 
 ## Future Enhancements (Post-MVP)
 
@@ -192,7 +192,3 @@ npm start
 ## License
 
 MIT
-
-## Contact
-
-For professional architecture consulting, visit [sammuti.com](https://sammuti.com)
